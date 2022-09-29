@@ -6,4 +6,114 @@
 }
 
 
+ h1 {
+    color: deeppink;
+    line height: 100px;
+    text-align:  center;
+    margin: auto;
+    
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    font-family: Arial, Helvetica, sans-serif
+}
+   /* regole head */
+.top.header {
+    
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    margin:  20px auto;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+.intro-header {
+    background-color: #fff;
+    width: 75%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+
+    /* DEBUG */
+    border: 2px;
+
+}
+
+
+       /* regole main*/
+main::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.card {
+    width: calc(100% / 3  - 20px);
+    margin: 10px 10px 30px;
+    float: left;
+    color: #fff;
+    height: 78px;
+    background-color: black;
+    line-height: 25px;
+}
+.card > img{
+
+    height: 100%;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.card > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin top: 7px;
+    font-weight: lighter;
+}
+
+
+
+.card > h3:hover{
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+   
+
+.card > h6{
+
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+.card > a{
+
+    font-size: 13px;
+    text-decoration: none;
+    color:#5ebbd3
+}
+
+.card > a:hover{
+    color: #551A8B;
+    text-decoration: underline;
+}
+.row{
+    width: 100%;
+    margin:auto;
+
+}
+
+
+
+
 
